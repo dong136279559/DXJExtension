@@ -1,0 +1,22 @@
+{
+  "name": "DXJExtension",
+  "version": "0.1.0",
+  "summary": "A short description of DXJExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dong136279559/DXJExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dong136279559": "136279559@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/dong136279559/DXJExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DXJExtension/Classes/**/*"
+}

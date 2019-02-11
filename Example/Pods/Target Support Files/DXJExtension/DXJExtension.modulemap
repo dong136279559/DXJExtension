@@ -1,0 +1,6 @@
+framework module DXJExtension {
+  umbrella header "DXJExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
