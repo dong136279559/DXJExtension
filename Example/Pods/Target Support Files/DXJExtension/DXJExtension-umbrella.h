@@ -24,11 +24,9 @@
 #import "UIFont+DXJExtension.h"
 #import "UIImage+DXJExtension.h"
 #import "UIImage+ImageEffects.h"
-#import "UIScrollView+DXJExtension.h"
 #import "UITableView+DXJExtension.h"
 #import "UIView+Draggable.h"
 #import "UIView+DXJExtension.h"
-#import "UIViewController+DXJExtension.h"
 #import "UIViewController+Loading.h"
 
 FOUNDATION_EXPORT double DXJExtensionVersionNumber;

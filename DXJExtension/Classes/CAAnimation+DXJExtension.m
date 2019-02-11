@@ -9,7 +9,6 @@
 #import "CAAnimation+DXJExtension.h"
 
 
-
 @implementation CAAnimation (DXJExtension)
 
 + (CAAnimation *)animationShakeWithLayer:(CALayer *)layer xy:(NSString *)direction repeatCount:(CGFloat)count {
@@ -144,7 +143,7 @@
 //波浪动画
 - (CALayer *)waveAnimationWithView:(UIView *)view WaveColor:(UIColor *)color duration:(CGFloat)duration NeedRepeat:(BOOL)repeat{
     CALayer *waveLayer = [CALayer layer];
-    waveLayer.bounds = CGRectMake(0, 0, view.width *1.5, view.width *1.5);
+    waveLayer.bounds = CGRectMake(0, 0, view.frame.size.width *1.5, view.frame.size.width *1.5);
     waveLayer.cornerRadius = waveLayer.bounds.size.width / 2; //设置圆角变为圆形
     waveLayer.position = view.center;
     waveLayer.backgroundColor = color.CGColor;

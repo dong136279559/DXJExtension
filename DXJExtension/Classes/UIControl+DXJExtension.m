@@ -7,6 +7,8 @@
 //
 
 #import "UIControl+DXJExtension.h"
+#import <objc/runtime.h>
+
 @interface UIControl ()
 
 /** 是否忽略点击 */

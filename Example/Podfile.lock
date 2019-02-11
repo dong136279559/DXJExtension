@@ -1,15 +1,22 @@
 PODS:
-  - DXJExtension (0.1.0)
+  - DXJExtension (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - DXJExtension (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   DXJExtension:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DXJExtension: b8fd098573b1ffea08aaa5f8a7ede2c18a2a6949
+  DXJExtension: ec056a7224932bec12da4b91705c4fc7b76f6b40
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 5f4930e0253e56e5c161e3149434c09696ae1ebf
 
